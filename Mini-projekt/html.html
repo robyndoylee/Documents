@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div>
+
+        <h1>Currency converter</h1>
+
+        <div class="menu">
+            <ul>
+                <li>
+                    <input type="radio" name="convertFrom" value="SEK">SEK
+                </li>
+                <li>
+                    <input type="radio" name="convertFrom" value="Bitcoin">BTC
+                </li>
+
+                <li>
+                    <input type="radio" name="convertFrom" value="Ethereum">ETH
+                </li>
+
+                <li>
+                    <input type="radio" name="convertFrom" value="Squid">SQD
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <input type="radio" name="convertTo" value="SEK">SEK
+                </li>
+
+                <li>
+                    <input type="radio" name="convertTo" value="Bitcoin">BTC
+                </li>
+
+                <li>
+                    <input type="radio" name="convertTo" value="Ethereum">ETH
+                </li>
+
+                <li>
+                    <input type="radio" name="convertTo" value="Squid">SQD
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <input type="text" oninput="METODNAMN()" id="id" name="Value1">
+            <input type="button" onclick="METODNAMN()" id="id3" value="<-->">
+            <input type="text" id="id2" disabled>
+
+        </div>
+    </div>
+    <canvas id="myChart"></canvas>
+    
+
+    <script src="/mini-projekt/js.js"></script>
+
+</body>
+
+</html>
